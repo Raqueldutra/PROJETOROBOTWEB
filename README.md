@@ -18,7 +18,8 @@ Aplica teste funcional ao cadastro de usuário no site  http://demo.automationte
 * pip install robotframework-seleniumlibrary
 
 # Executando o projeto
-robot -d ./Report SuiteWeb\Tests\register.robot
+
+robot -d ./report Tests\register.robot
 
 Serão executados todos os casos de testes e os detalhes com os prints do resultado de cada caso de teste estarão disponíveis em relatório HTML no diretório /report.
 
